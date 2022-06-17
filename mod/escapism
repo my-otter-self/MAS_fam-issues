@@ -1,0 +1,16 @@
+init 5 python:
+    addEvent(Event(persistent.event_database,eventlabel="hv_escapism",category=['media'],prompt="Escapism",random=True))
+
+label hv_escapism:
+    m 1eua "You know I was thinking back on how I said Yuri used her books as an escape, I realize now that it was a little insensitive of me."
+    m 1eud "However, I wasn't necessarily wrong. Have you heard of escapism [mas_get_player_nickname()]?"
+    m 1esd "Escapism by defintion is {i} the tendency to seek distraction and relief from unpleasant realities, especially by seeking entertainment or engaging in fantasy.{/i}"
+    m 1efc "I know it might be difficult to see how escapism is unhealthy. You might see it as just taking a break from all the stress around you."
+    m 1efd "Sadly the fact it while it is important to take breaks and step away from certain situations, it is never healthy to try and dissaccosiate from reality through the things you enjoy."
+    m 7eto "That is why I said Yuri was using her books as an escape, she was trying to dissaccoiate from reality and live through the characters in the book."
+    m 1dsebdd "Like I said before, escapism can be healthy to an extent."
+    m 2ekd "Only if your taking a small break from your problem and not reality itself!"
+    m 2ekd "If you do find yourself indulging in escapism, try to stop the activity and instead write down the problems your dealing with or talk to someone you trust about what your dealing with."
+    m 2ekd "I hope what I said didn't hurt you, I just want the absolute best for both your mental and physical health."
+    m 2ekd "Remember [player], I love you with all my heart and soul~"
+return "love"
